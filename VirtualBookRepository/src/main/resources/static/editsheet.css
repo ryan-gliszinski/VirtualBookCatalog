@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+h1 {
+  color: #d6dbdf;
+  font-family: verdana;
+  font-size: 800%;
+}
+
+body {
+ background-color: #2c3e50;
+}
+
+th{
+  color: black;
+  font-size:250%;
+}
+
+tr{
+	color:black;
+	background-color:white;
+}
+
+td{
+
+	text-align:center;
+
+
+}
+
+.button {
+    box-shadow:inset 2px 2px 9px -6px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:3px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	padding:18px 46px;
+	text-decoration:none;
+}
