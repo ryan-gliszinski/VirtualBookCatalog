@@ -1,28 +1,27 @@
 @charset "ISO-8859-1";
 
 h1 {
-  color: #d6dbdf;
+  color: #ffffff;
   font-family: verdana;
   font-size: 400%;
 }
 
 body {
-	
-	background-color: #2c3e50;
   	padding-bottom: 50px;
   	padding-left: 50px;
   	padding-right: 50px;
-  
+  	background-image: url(images/bookbackground.jpg);
 }
 
 table{
 	
-	border: 1px solid white;
+	border: 1px solid black;
+	width:100%;
 }
 
 th{
-  color: black;
-  font-size:100%;
+  	color: black;
+  	font-size:100%;
 }
 
 tr{
@@ -30,11 +29,12 @@ tr{
 	background-color:white;
 }
 
+tr:hover {
+    background-color: #e0e2e4;
+}
+
 td{
-
 	text-align:center;
-
-
 }
 
 .button {
@@ -98,3 +98,16 @@ td{
 	position:relative;
 	top:1px;
 }
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 80%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+
